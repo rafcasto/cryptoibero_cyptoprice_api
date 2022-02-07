@@ -15,7 +15,8 @@ spec:
         app: cryptoibero-api
     spec:
       containers:
-      - name: storybook
+      - name: cryptoibero
         image: rafcasto/crypto-ibero-api
         ports:
         - containerPort: 5000
+        - containerPort: 5001
