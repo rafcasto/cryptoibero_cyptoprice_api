@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cryptoibero-dep
+  labels:
+    app: cryptoibero-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cryptoibero-api
+  template:
+    metadata:
+      labels:
+        app: cryptoibero-api
+    spec:
+      containers:
+      - name: storybook
+        image: rafcasto/crypto-ibero-api
+        ports:
+        - containerPort: 5000
+        - containerPort: 5001

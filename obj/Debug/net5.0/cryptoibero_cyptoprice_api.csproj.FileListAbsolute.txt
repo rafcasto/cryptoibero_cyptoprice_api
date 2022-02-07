@@ -29,3 +29,8 @@
 /home/opennet/Documents/cryptoibero/APIs/cryptoibero_cyptoprice_api/obj/Debug/net5.0/ref/cryptoibero_cyptoprice_api.dll
 /home/opennet/Documents/cryptoibero/APIs/cryptoibero_cyptoprice_api/obj/Debug/net5.0/cryptoibero_cyptoprice_api.pdb
 /home/opennet/Documents/cryptoibero/APIs/cryptoibero_cyptoprice_api/obj/Debug/net5.0/cryptoibero_cyptoprice_api.genruntimeconfig.cache
+/home/opennet/Documents/cryptoibero/APIs/cryptoibero_cyptoprice_api/bin/Debug/net5.0/out/web.config
+/home/opennet/Documents/cryptoibero/APIs/cryptoibero_cyptoprice_api/bin/Debug/net5.0/out/appsettings.Development.json
+/home/opennet/Documents/cryptoibero/APIs/cryptoibero_cyptoprice_api/bin/Debug/net5.0/out/appsettings.json
+/home/opennet/Documents/cryptoibero/APIs/cryptoibero_cyptoprice_api/bin/Debug/net5.0/out/cryptoibero_cyptoprice_api.deps.json
+/home/opennet/Documents/cryptoibero/APIs/cryptoibero_cyptoprice_api/bin/Debug/net5.0/out/cryptoibero_cyptoprice_api.runtimeconfig.json
