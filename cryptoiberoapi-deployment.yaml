@@ -15,8 +15,7 @@ spec:
         app: cryptoibero-api
     spec:
       containers:
-      - name: cryptoibero
-        image: rafcasto/crypto-ibero-api
+      - name: cryptoibero-api
+        image: rafcasto/crypto-ibero-api:latest
         ports:
         - containerPort: 5000
-        - containerPort: 5001

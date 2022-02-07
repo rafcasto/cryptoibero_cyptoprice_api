@@ -11,9 +11,5 @@ spec:
     targetPort: 5000
     name: http
     protocol: TCP
-  - port: 5001
-    name: https
-    targetPort: 5001
-    protocol: TCP
   selector:
     app: cryptoibero-api
