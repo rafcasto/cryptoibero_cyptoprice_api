@@ -15,6 +15,7 @@ COPY --from=build-env /app/out .
 EXPOSE 5001
 EXPOSE 5000
 ENV ASPNETCORE_URLS="http://0.0.0.0:5000;https://0.0.0.0:5001"
+RUN ls
 ENV ASPNETCORE_Kestrel__Certificates__Default__Password=rafael88
-ENV ASPNETCORE_Kestrel__Certificates__Default__Path=https/aspnetapp.pfx
+ENV ASPNETCORE_Kestrel__Certificates__Default__Path=./https/aspnetapp.pfx
 ENTRYPOINT ["dotnet", "cryptoibero_cyptoprice_api.dll"]
