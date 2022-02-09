@@ -19,3 +19,4 @@ spec:
         image: rafcasto/crypto-ibero-api:latest
         ports:
         - containerPort: 5000
+        - containerPort: 5001
