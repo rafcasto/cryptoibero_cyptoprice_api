@@ -51,8 +51,8 @@ namespace cryptoibero_cyptoprice_api.Repositories
                     Buy = currency.Buy,
                     Sell = currency.Buy,
                     Exchange = currency.Exchange,
-                    Name = currency.Name.ToUpper(),
-                    Symbol = currency.Symbol,
+                    Name = currency.Name,
+                    Symbol = currency.Symbol.ToUpper(),
                     ChartInfo = await GetChartInfo(currency.Id)
                 });
             }
