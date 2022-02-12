@@ -47,7 +47,7 @@ namespace cryptoibero_cyptoprice_api.Repositories
             {
                 cryptoInfoList.Add(new CryptoInfo(){
                     Id = currency.Id,
-                    Icoin = getIcon(currency.Icoin), 
+                    Icon = getIcon(currency.Icoin), 
                     Buy = currency.Buy,
                     Sell = currency.Buy,
                     Exchange = currency.Exchange,
