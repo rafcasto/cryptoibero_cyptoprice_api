@@ -47,16 +47,24 @@ namespace cryptoibero_cyptoprice_api.Repositories
             {
                 cryptoInfoList.Add(new CryptoInfo(){
                     Id = currency.Id,
-                    Icoin = currency.Icoin, 
+                    Icoin = getIcon(currency.Icoin), 
                     Buy = currency.Buy,
                     Sell = currency.Buy,
                     Exchange = currency.Exchange,
-                    Name = currency.Name,
+                    Name = currency.Name.ToUpper(),
                     Symbol = currency.Symbol,
                     ChartInfo = await GetChartInfo(currency.Id)
                 });
             }
             return cryptoInfoList;
+        }
+
+        private string getIcon(string icon)
+        {
+            int index = icon.IndexOf("?");
+            if (index >= 0)
+            icon = icon.Substring(0, index);
+            return icon;
         }
 
         private string UnixDateTimeToString(double unixTime)
